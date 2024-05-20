@@ -1,0 +1,22 @@
+{
+	"pools": [
+		{
+			"rolls": 6,
+			"conditions": [
+				{
+					"condition": "block_state_property",
+					"block": "brown_bed",
+					"properties": {
+						"part": "head"
+					}
+				}
+			],
+			"entries": [
+				{
+					"type": "item",
+					"name": "mangrove_log"
+				}
+			]
+		}
+	]
+}

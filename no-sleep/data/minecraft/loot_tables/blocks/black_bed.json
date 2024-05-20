@@ -1,0 +1,22 @@
+{
+	"pools": [
+		{
+			"rolls": 6,
+			"conditions": [
+				{
+					"condition": "block_state_property",
+					"block": "black_bed",
+					"properties": {
+						"part": "head"
+					}
+				}
+			],
+			"entries": [
+				{
+					"type": "item",
+					"name": "dark_oak_log"
+				}
+			]
+		}
+	]
+}

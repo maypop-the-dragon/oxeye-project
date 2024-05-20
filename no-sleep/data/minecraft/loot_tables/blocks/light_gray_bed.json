@@ -1,0 +1,22 @@
+{
+	"pools": [
+		{
+			"rolls": 6,
+			"conditions": [
+				{
+					"condition": "block_state_property",
+					"block": "light_gray_bed",
+					"properties": {
+						"part": "head"
+					}
+				}
+			],
+			"entries": [
+				{
+					"type": "item",
+					"name": "birch_log"
+				}
+			]
+		}
+	]
+}

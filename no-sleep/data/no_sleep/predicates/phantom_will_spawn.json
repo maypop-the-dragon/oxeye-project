@@ -1,0 +1,14 @@
+[
+	{
+		"condition": "minecraft:time_check",
+		"value": {
+			"min": 109000,
+			"max": 119000
+		},
+		"period": 192000
+	},
+	{
+		"condition": "minecraft:random_chance",
+		"chance": 0.00045
+	}
+]

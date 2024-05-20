@@ -1,0 +1,249 @@
+{
+	"type": "chest",
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "tag",
+					"expand": true,
+					"name": "beds"
+				}
+			]
+		},
+		{
+			"bonus_rolls": 0,
+			"entries": [
+				{
+					"type": "item",
+					"name": "stone_axe"
+				},
+				{
+					"type": "item",
+					"name": "wooden_axe",
+					"weight": 3
+				}
+			],
+			"rolls": 1
+		},
+		{
+			"bonus_rolls": 0,
+			"entries": [
+				{
+					"type": "item",
+					"name": "stone_pickaxe"
+				},
+				{
+					"type": "item",
+					"name": "wooden_pickaxe",
+					"weight": 3
+				}
+			],
+			"rolls": 1
+		},
+		{
+			"bonus_rolls": 0,
+			"entries": [
+				{
+					"type": "item",
+					"functions": [
+						{
+							"add": false,
+							"count": {
+								"type": "uniform",
+								"max": 2,
+								"min": 1
+							},
+							"function": "set_count"
+						}
+					],
+					"name": "apple",
+					"weight": 5
+				},
+				{
+					"type": "item",
+					"functions": [
+						{
+							"add": false,
+							"count": {
+								"type": "uniform",
+								"max": 2,
+								"min": 1
+							},
+							"function": "set_count"
+						}
+					],
+					"name": "bread",
+					"weight": 3
+				},
+				{
+					"type": "item",
+					"functions": [
+						{
+							"add": false,
+							"count": {
+								"type": "uniform",
+								"max": 2,
+								"min": 1
+							},
+							"function": "set_count"
+						}
+					],
+					"name": "salmon",
+					"weight": 3
+				}
+			],
+			"rolls": 3
+		},
+		{
+			"bonus_rolls": 0,
+			"entries": [
+				{
+					"type": "item",
+					"functions": [
+						{
+							"add": false,
+							"count": {
+								"type": "uniform",
+								"max": 12,
+								"min": 1
+							},
+							"function": "set_count"
+						}
+					],
+					"name": "stick",
+					"weight": 10
+				},
+				{
+					"type": "item",
+					"functions": [
+						{
+							"add": false,
+							"count": {
+								"type": "uniform",
+								"max": 12,
+								"min": 1
+							},
+							"function": "set_count"
+						}
+					],
+					"name": "oak_planks",
+					"weight": 10
+				},
+				{
+					"type": "item",
+					"functions": [
+						{
+							"add": false,
+							"count": {
+								"type": "uniform",
+								"max": 3,
+								"min": 1
+							},
+							"function": "set_count"
+						}
+					],
+					"name": "oak_log",
+					"weight": 3
+				},
+				{
+					"type": "item",
+					"functions": [
+						{
+							"add": false,
+							"count": {
+								"type": "uniform",
+								"max": 3,
+								"min": 1
+							},
+							"function": "set_count"
+						}
+					],
+					"name": "spruce_log",
+					"weight": 3
+				},
+				{
+					"type": "item",
+					"functions": [
+						{
+							"add": false,
+							"count": {
+								"type": "uniform",
+								"max": 3,
+								"min": 1
+							},
+							"function": "set_count"
+						}
+					],
+					"name": "birch_log",
+					"weight": 3
+				},
+				{
+					"type": "item",
+					"functions": [
+						{
+							"add": false,
+							"count": {
+								"type": "uniform",
+								"max": 3,
+								"min": 1
+							},
+							"function": "set_count"
+						}
+					],
+					"name": "jungle_log",
+					"weight": 3
+				},
+				{
+					"type": "item",
+					"functions": [
+						{
+							"add": false,
+							"count": {
+								"type": "uniform",
+								"max": 3,
+								"min": 1
+							},
+							"function": "set_count"
+						}
+					],
+					"name": "acacia_log",
+					"weight": 3
+				},
+				{
+					"type": "item",
+					"functions": [
+						{
+							"add": false,
+							"count": {
+								"type": "uniform",
+								"max": 3,
+								"min": 1
+							},
+							"function": "set_count"
+						}
+					],
+					"name": "dark_oak_log",
+					"weight": 3
+				},
+				{
+					"type": "item",
+					"functions": [
+						{
+							"add": false,
+							"count": {
+								"type": "uniform",
+								"max": 3,
+								"min": 1
+							},
+							"function": "set_count"
+						}
+					],
+					"name": "mangrove_log",
+					"weight": 3
+				}
+			],
+			"rolls": 4
+		}
+	]
+}

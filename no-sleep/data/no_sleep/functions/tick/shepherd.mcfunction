@@ -1,0 +1,16 @@
+execute if data entity @s {Offers: {Recipes: [{sell: {id: "minecraft:black_bed"}}]}} run function no_sleep:tick/shepherd/replace_beds
+execute if data entity @s {Offers: {Recipes: [{sell: {id: "minecraft:blue_bed"}}]}} run function no_sleep:tick/shepherd/replace_beds
+execute if data entity @s {Offers: {Recipes: [{sell: {id: "minecraft:brown_bed"}}]}} run function no_sleep:tick/shepherd/replace_beds
+execute if data entity @s {Offers: {Recipes: [{sell: {id: "minecraft:cyan_bed"}}]}} run function no_sleep:tick/shepherd/replace_beds
+execute if data entity @s {Offers: {Recipes: [{sell: {id: "minecraft:gray_bed"}}]}} run function no_sleep:tick/shepherd/replace_beds
+execute if data entity @s {Offers: {Recipes: [{sell: {id: "minecraft:green_bed"}}]}} run function no_sleep:tick/shepherd/replace_beds
+execute if data entity @s {Offers: {Recipes: [{sell: {id: "minecraft:light_blue_bed"}}]}} run function no_sleep:tick/shepherd/replace_beds
+execute if data entity @s {Offers: {Recipes: [{sell: {id: "minecraft:light_gray_bed"}}]}} run function no_sleep:tick/shepherd/replace_beds
+execute if data entity @s {Offers: {Recipes: [{sell: {id: "minecraft:lime_bed"}}]}} run function no_sleep:tick/shepherd/replace_beds
+execute if data entity @s {Offers: {Recipes: [{sell: {id: "minecraft:magenta_bed"}}]}} run function no_sleep:tick/shepherd/replace_beds
+execute if data entity @s {Offers: {Recipes: [{sell: {id: "minecraft:orange_bed"}}]}} run function no_sleep:tick/shepherd/replace_beds
+execute if data entity @s {Offers: {Recipes: [{sell: {id: "minecraft:pink_bed"}}]}} run function no_sleep:tick/shepherd/replace_beds
+execute if data entity @s {Offers: {Recipes: [{sell: {id: "minecraft:purple_bed"}}]}} run function no_sleep:tick/shepherd/replace_beds
+execute if data entity @s {Offers: {Recipes: [{sell: {id: "minecraft:red_bed"}}]}} run function no_sleep:tick/shepherd/replace_beds
+execute if data entity @s {Offers: {Recipes: [{sell: {id: "minecraft:white_bed"}}]}} run function no_sleep:tick/shepherd/replace_beds
+execute if data entity @s {Offers: {Recipes: [{sell: {id: "minecraft:yellow_bed"}}]}} run function no_sleep:tick/shepherd/replace_beds

@@ -1,0 +1,22 @@
+{
+	"pools": [
+		{
+			"rolls": 6,
+			"conditions": [
+				{
+					"condition": "block_state_property",
+					"block": "purple_bed",
+					"properties": {
+						"part": "head"
+					}
+				}
+			],
+			"entries": [
+				{
+					"type": "item",
+					"name": "spruce_log"
+				}
+			]
+		}
+	]
+}
