@@ -20,7 +20,9 @@ you might still enjoy using some of these data packs for a fresh experience!
 
 ### Minimal Structures
 
-- **Status:** Early Concept Development
+ - **Development Status:** Early Concept Development
+
+---
 
 This data pack will, in general, try to reduce the role of generated structures
 in Minecraft's usual progression, to encourage you to engage with the
@@ -34,9 +36,11 @@ generate as structure loot for compatibility with [No Sleep](#no-sleep).)
 
 ### No Sleep
 
- - **Status:** Finished and Playable!
- - **Pack Version:** v10
+ - **Development Status:** Finished and Playable!
+ - **Pack Version:** 1.21.0.0
  - **Supported Minecraft Versions:** 1.19.3-1.20.6
+
+---
 
 No Sleep makes a two big gameplay changes:
  - **beds cannot be crafted, picked up, or traded for**
