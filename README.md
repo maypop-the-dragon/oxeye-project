@@ -38,7 +38,7 @@ generate as structure loot for compatibility with [No Sleep](#no-sleep).)
 
  - **Development Status:** Finished and Playable!
  - **Pack Version:** 1.21.0.0
- - **Supported Minecraft Versions:** 1.19.3-1.20.6
+ - **Supported Minecraft Versions:** 1.21
 
 ---
 
