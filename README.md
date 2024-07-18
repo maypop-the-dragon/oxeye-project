@@ -1,22 +1,42 @@
 # The Oxeye Project
 
-If there are three things I enjoy, they are probably:
- 1. Minecraft
- 2. programming
- 3. designing things
- 4. designing and programming things in Minecraft
- 5. buffer overflows
- 6. lying
- 7. unfunny jokes
- 8. dragging on a joke too long
+This project tries to "fix" Minecraft: Java Edition's survival gameplay with a
+set of data packs. They are designed to work together in any combination, but
+many of them are unlikely to work well with other data packs and mods.
 
-I *want* to like Minecraft Survival mode, but I feel it has some issues...
-
-This project sets out to "fix" modern Minecraft: Java Edition's Survival
-gameplay with a set of data packs. Even if you think Minecraft is fine as-is,
-you might still enjoy using some of these data packs for a fresh experience!
+Even if you think Minecraft is fine as-is, you might still enjoy using them for
+a fresh experience! If you care, my theory is, primarily, that Minecraft is too
+dominated by "meta" strategies, such as crafting a bed early and skipping every
+night or repeatedly placing and breaking a lectern to get a villager to sell you
+a Mending enchanted book specifically. I want to change the mechanics that allow
+these un-fun strategies to exist.
 
 ## Data Packs So Far
+
+### Elemental Enchanting
+
++ **Status:** Early Concept Development
+
+---
+
+*Elemental Enchanting* overhauls enchanting with a system in which enchantments
+are constructed from fundamental parts based on the four classical elements,
+plus two extra, more Minecraft-y elements. This system is meant to encourage
+experimentation and allow for many equally useful combinations of enchantments.
+
+### Infoverlays
+
++ **Status:** Proof of Concept
+
+---
+
+*Infoverlays* adds informative overlays that appear when you hold certain items
+in your hand. You can also see the overlays on items in item frames.
+The overlays are an in-universe replacement for the debug screen and create fun
+building possibilities like functional wall clocks.
+
+The only overlay I have implemented so far is for normal compasses and maps,
+and it currently only works in one's hand, not in item frames.
 
 ### Minimal Structures
 
@@ -36,23 +56,23 @@ generate as structure loot for compatibility with [No Sleep](#no-sleep).)
 
 ### No Sleep
 
- - **Development Status:** Finished and Playable!
- - **Pack Version:** 1.21.0.0
- - **Supported Minecraft Versions:** 1.21
++ **Status:** Ready
++ **Pack Version:** 1.21.0.0
++ **Supported Minecraft Versions:** 1.21
 
 ---
 
-No Sleep makes a two big gameplay changes:
- - **beds cannot be crafted, picked up, or traded for**
- - **beds do not skip the night** (but can **still set your spawn point**)
+*No Sleep* makes a two big gameplay changes:
+- **beds cannot be crafted, picked up, or traded for**
+- **beds do not skip the night** (but can **still set your spawn point**)
 
 These changes make Minecraft harder because:
- - you must actually **wait out the night** or **risk encountering monsters**
- - you can only set your spawn with naturally generated beds such as those in
-   villages, so **exploring outside villages is much riskier**
+- you must actually **wait out the night** or **risk encountering monsters**
+- you can only set your spawn with naturally generated beds such as those in
+  villages, so **exploring outside villages is much riskier**
 
 It includes these secondary changes to compensate for the main ones:
- - beds drop logs when broken
- - bonus chests contain one bed
- - phantoms only spawn during new moons
- - shepherd villagers sell dye instead of beds
+- beds drop logs when broken
+- bonus chests contain one bed
+- phantoms only spawn during new moons
+- shepherd villagers sell dye instead of beds
